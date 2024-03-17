@@ -93,7 +93,7 @@ def delete(id):
     conn.execute('DELETE FROM userpost WHERE id = ?', (id,))
     conn.commit()
     conn.close()
-    flash('"{}" was successfully deleted!'.format(post['title']))
+    flash('"{}" was delted successfully !'.format(post['title']))
     return redirect(url_for('index'))
 
 
