@@ -1,5 +1,5 @@
 # User_management_System
-This is user management web based Flask Application with an Sql database
+This is user management system web based Flask Application with an Sql database
 first create directory user_management_system
 $ cd user_management_system
 # now try to vreate a virtua; environment
